@@ -9,5 +9,8 @@
         <module name="SyncronizableCollection" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SyncronizableCollection" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
