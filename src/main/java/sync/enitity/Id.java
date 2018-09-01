@@ -43,4 +43,20 @@ public class Id {
                 "data=" + Arrays.toString(data) +
                 '}';
     }
+
+    public int compareTo(Id o) {
+        if (data.length < o.data.length)
+            return -1;
+        else if (data.length > o.data.length)
+            return 1;
+
+        for (int byteNum = 0; byteNum < data.length; ++ byteNum) {
+            if (data[byteNum] < o.data[byteNum])
+                return -1;
+            else if (data[byteNum] > o.data[byteNum])
+                return 1;
+        }
+
+        return 0;
+    }
 }

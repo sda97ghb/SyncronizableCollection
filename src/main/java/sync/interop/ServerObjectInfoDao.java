@@ -10,5 +10,7 @@ public interface ServerObjectInfoDao {
 
     void add(ServerObjectInfo serverObjectInfo);
 
+    void update(ServerObjectInfo serverObjectInfo);
+
     void remove(Id id);
 }

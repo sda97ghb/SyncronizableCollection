@@ -10,5 +10,7 @@ public interface ClientObjectInfoDao {
 
     void add(ClientObjectInfo clientObjectInfo);
 
+    void update(ClientObjectInfo clientObjectInfo);
+
     void remove(Id id);
 }

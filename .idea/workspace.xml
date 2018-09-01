@@ -1,12 +1,482 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fb8377b-5493-4f1e-a3fc-0fe4251763bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/conflict/ConflictResolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/conflict/ConflictResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/conflict/DownloadResolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/conflict/UploadResolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/notification/DeletedFromClientNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/notification/DeletedFromServerNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/notification/DownloadedNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/notification/UploadedNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/object_management/ClientObjectDeleter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/object_management/Downloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/object_management/ServerObjectDeleter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sync/interop/object_management/Uploader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sync/enitity/Id.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sync/enitity/Id.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sync/interop/ClientObjectInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sync/interop/ClientObjectInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sync/interop/Downloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sync/interop/Notifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sync/interop/ObjectDeleter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sync/interop/ObjectDeleter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sync/interop/ServerObjectInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sync/interop/ServerObjectInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sync/interop/Uploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sync/use_case/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sync/use_case/Sync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/ClientObjectInfoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/ClientObjectInfoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Interactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Interactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/ServerObjectInfoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/ServerObjectInfoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sync/interop/Downloader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sync/interop/Notifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sync/interop/ObjectDeleter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sync/interop/ObjectDeleter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sync/interop/Uploader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sync/use_case/Sync$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sync/use_case/Sync$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sync/use_case/Sync$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sync/use_case/Sync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sync/use_case/Sync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/ClientObjectInfoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/ClientObjectInfoDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Interactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Interactor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/ServerObjectInfoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/ServerObjectInfoDaoImpl.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1902773403">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="11" />
+          <entry key="java" value="2861" />
+          <entry key="txt" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2861" />
+          <entry key="PLAIN_TEXT" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="63" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="63" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SyncronizableCollection" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/ConflictResolutionMechanism.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/ConflictResolution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/ConflictResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/conflict/Upload.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/conflict/Download.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/conflict/ConflictResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/conflict/DownloadResolution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/conflict/UploadResolution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/notification/DownloadedNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/notification/UploadedNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/notification/DeletedFromClientNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/Notifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/notification/DeletedFromServerNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/Downloader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/Uploader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/ServerObjectDeleter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/ObjectDeleter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/ClientObjectDeleter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/enitity/Id.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Interactor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/ServerObjectInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/interop/ClientObjectInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/ClientObjectInfoDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/ServerObjectInfoDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sync/use_case/Sync.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SyncronizableCollection" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="291" />
-    <option name="y" value="52" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-1" />
+    <option name="y" value="30" />
+    <option name="width" value="1920" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SyncronizableCollection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SyncronizableCollection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SyncronizableCollection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SyncronizableCollection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SyncronizableCollection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SyncronizableCollection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SyncronizableCollection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SyncronizableCollection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="split&#9;ACTION&#9;SplitVertically" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535811532941" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="SyncronizableCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fb8377b-5493-4f1e-a3fc-0fe4251763bd" name="Default Changelist" comment="" />
+      <created>1535693645751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535693645751</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Refactored. Added test.">
+      <created>1535693852248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535693852249</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="30" width="1922" height="1051" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" weight="0.32977587" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16542156" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32829374" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.9028078" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="8" side_tool="true" weight="0.2497332" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactored. Added test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored. Added test." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/conflict/UploadResolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/conflict/DownloadResolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/conflict/ConflictResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/conflict/ConflictResolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/notification/DownloadedNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/notification/UploadedNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/notification/DeletedFromClientNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/notification/DeletedFromServerNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/Notifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/ObjectDeleter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/object_management/ClientObjectDeleter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/object_management/ServerObjectDeleter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/object_management/Downloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/object_management/Uploader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/enitity/Id.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/enitity/ClientObjectInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Interactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/ClientObjectInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/interop/ServerObjectInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/ServerObjectInfoDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/use_case/Sync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="145" column="55" lean-forward="true" selection-start-line="145" selection-start-column="55" selection-end-line="145" selection-end-column="55" />
+          <folding>
+            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/ClientObjectInfoDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
